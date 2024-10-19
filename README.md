@@ -1,6 +1,6 @@
 # Reproduce wartremover flaw
 
-Compiling this fails with
+This project is simply an instantiation of http4s giter8 template with `Warts.unsafe`. Compiling it fails with
 
 ```
 [error] /Users/joao.fe/workspace/wartremover-issue/quickstart/src/main/scala/com/example/quickstart/Main.scala:12:15: [wartremover:Any] Inferred type containing Any: cats.data.Kleisli[[+A]cats.effect.IO[A],org.http4s.Request[cats.effect.IO],org.http4s.Response[[+A]cats.effect.IO[A]]]
